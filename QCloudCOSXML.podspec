@@ -21,7 +21,7 @@ s.version              = "6.5.3"
   s.subspec 'Default' do |default|
     default.ios.deployment_target = '10.0'
     default.source_files = 'QCloudCOSXML/Classes/**/*','QCloudCOSXML/Classes/QCloudCOSXML/*'
-  default.dependency "QCloudCore",'6.5.3'
+  default.dependency "QCloudCore",'6.5.4'
   end
   s.subspec 'Slim' do |slim|
     slim.ios.deployment_target = '10.0'
